@@ -37,3 +37,60 @@ def read_root(request: Request):
         "request": request,
         "user_name": user_name,
     })
+    
+@app.get("/about", response_class=HTMLResponse)
+def about(request: Request):
+    user_name = request.session.get("user_name")
+    
+    return templates.TemplateResponse("about.html", {
+        "request": request,
+        "user_name": user_name,
+    })
+    
+@app.get("/distributors", response_class=HTMLResponse)
+def contact(request: Request):
+    user_name = request.session.get("user_name")
+    
+    return templates.TemplateResponse("distributors.html", {
+        "request": request,
+        "user_name": user_name,
+    })
+    
+@app.get("/products", response_class=HTMLResponse)
+def products(request: Request):
+    user_name = request.session.get("user_name")
+    
+    return templates.TemplateResponse("products.html", {
+        "request": request,
+        "user_name": user_name,
+    })
+
+@app.get("/event", response_class=HTMLResponse)
+def event(request: Request):
+    user_name = request.session.get("user_name")
+    
+    return templates.TemplateResponse("event.html", {
+        "request": request,
+        "user_name": user_name,
+    })
+    
+@app.get("/career", response_class=HTMLResponse)
+def career(request: Request):
+    user_name = request.session.get("user_name")
+    
+    return templates.TemplateResponse("career.html", {
+        "request": request,
+        "user_name": user_name,
+    })
+    
+@app.get("/contact", response_class=HTMLResponse)
+def contact(request: Request):
+    user_name = request.session.get("user_name")
+    
+    return templates.TemplateResponse("contact.html", {
+        "request": request,
+        "user_name": user_name,
+    })
+    
+import logout, signup, logout
+
