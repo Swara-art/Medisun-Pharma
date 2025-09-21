@@ -10,8 +10,13 @@ router.get('/contact', (req, res) => {
     res.send('Contact Us Page');
 });
 
-router.get('/products', (req, res) => {
-    res.send('Our Product Page');
+router.get("/products", async (req, res) => {
+  try {
+    const meds = await Medicine.find();
+    res.json(meds);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 });
 
 router.get('/events', (req, res) => {
