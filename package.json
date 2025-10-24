@@ -1,0 +1,24 @@
+{
+  "name": "medisun-pharma",
+  "version": "1.0.0",
+  "description": "A Commercial Pharmaceutical Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swara-art/Medisun-Pharma.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Swara-art/Medisun-Pharma/issues"
+  },
+  "homepage": "https://github.com/Swara-art/Medisun-Pharma#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

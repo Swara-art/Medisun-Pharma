@@ -2,34 +2,70 @@
   {
     "id": 1,
     "name": "CARRYON",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "Antiemetic / Nutritional Supplement",
+    "uses": [
+      "Nutritional support during pregnancy",
+      "Treatment of nausea and vomiting in pregnancy",
+      "Managing dietary requirements"
+    ],
+    "sideEffects": [
+      "Drowsiness",
+      "Dizziness",
+      "Dry mouth",
+      "Constipation"
+    ],
+    "dosage": "One tablet daily, or as advised by your doctor.",
+    "contraindications": [
+      "Hypersensitivity to any of the ingredients",
+      "Avoid consuming alcohol"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/CARRYON.png"
   },
   {
     "id": 2,
     "name": "CARRYON-PN",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "Antiemetic / Nutritional Supplement",
+    "uses": [
+      "Treatment of Nausea and vomiting in pregnancy"
+    ],
+    "sideEffects": [
+      "Dryness in mouth",
+      "Constipation",
+      "Lightheadedness",
+      "Dizziness",
+      "Sleepiness"
+    ],
+    "dosage": "10mg Doxylamine / 10mg Vitamin B6 / 1.5mg Folic Acid. Taken with or without food as advised by the doctor.",
+    "contraindications": [
+      "Hypersensitivity to ingredients",
+      "Patients currently using monoamine oxidase inhibitors (MAOIs)",
+      "Avoid drinking alcohol"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/CARRYON-PN.png"
   },
   {
     "id": 3,
     "name": "Comex",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "Antibiotic (Penicillin)",
+    "uses": [
+      "Treatment of bacterial infections (e.g., throat, ear, nasal sinuses, respiratory tract, urinary tract, skin)",
+      "Treatment of typhoid fever",
+      "Eradication of H. pylori in peptic ulcer disease"
+    ],
+    "sideEffects": [
+      "Diarrhea",
+      "Nausea",
+      "Vomiting",
+      "Hypersensitivity reactions",
+      "Headache"
+    ],
+    "dosage": "Typically 500mg. Take this medicine in the dose and duration as advised by your doctor.",
+    "contraindications": [
+      "Allergy (hypersensitivity) to penicillin or amoxicillin"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/Comex.png"
   },
   {
@@ -46,12 +82,28 @@
   {
     "id": 5,
     "name": "DIZIGO PLUS",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "Anti-vertigo",
+    "uses": [
+      "Treatment of Vertigo",
+      "Relief from dizziness, spinning sensation, nausea, and vomiting"
+    ],
+    "sideEffects": [
+      "Dryness of mouth",
+      "Stomach pain",
+      "Dizziness",
+      "Sleepiness",
+      "Headache"
+    ],
+    "dosage": "20mg Cinnarizine / 40mg Dimenhydrinate. Take with food as advised by your doctor.",
+    "contraindications": [
+      "Do not drink alcohol",
+      "Angle-closure glaucoma",
+      "Parkinson's disease",
+      "Enlarged prostate gland",
+      "Peptic ulcer",
+      "Asthma"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/DIZIGO_PLUS.png"
   },
   {
@@ -68,56 +120,124 @@
   {
     "id": 7,
     "name": "Glimbt 1",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "Antidiabetic (Sulfonylurea)",
+    "uses": [
+      "Treatment of type 2 diabetes mellitus"
+    ],
+    "sideEffects": [
+      "Hypoglycemia (low blood sugar)",
+      "Dizziness",
+      "Headache",
+      "Nausea"
+    ],
+    "dosage": "1mg Glimepiride. Swallow the tablet whole with a glass of water, as advised by your doctor.",
+    "contraindications": [
+      "Not recommended during pregnancy",
+      "Caution during breastfeeding",
+      "Avoid alcohol consumption",
+      "Severe liver problems",
+      "Severe kidney problems"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/Glimbt_1.png"
   },
   {
     "id": 8,
     "name": "Glimbt 2",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "Antidiabetic (Sulfonylurea)",
+    "uses": [
+      "Treatment of type 2 diabetes mellitus"
+    ],
+    "sideEffects": [
+      "Hypoglycemia (low blood sugar)",
+      "Dizziness",
+      "Headache",
+      "Nausea"
+    ],
+    "dosage": "2mg Glimepiride. Swallow the tablet whole with a glass of water, as advised by your doctor.",
+    "contraindications": [
+      "Not recommended during pregnancy",
+      "Caution during breastfeeding",
+      "Avoid alcohol consumption",
+      "Severe liver problems",
+      "Severe kidney problems"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/Glimbt_2.png"
   },
   {
     "id": 9,
     "name": "Glimbt 4",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "Antidiabetic (Sulfonylurea)",
+    "uses": [
+      "Treatment of type 2 diabetes mellitus"
+    ],
+    "sideEffects": [
+      "Hypoglycemia (low blood sugar)",
+      "Dizziness",
+      "Headache",
+      "Nausea"
+    ],
+    "dosage": "4mg Glimepiride. Swallow the tablet whole with a glass of water, as advised by your doctor.",
+    "contraindications": [
+      "Not recommended during pregnancy",
+      "Caution during breastfeeding",
+      "Avoid alcohol consumption",
+      "Severe liver problems",
+      "Severe kidney problems"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/Glimbt_4.png"
   },
   {
     "id": 10,
     "name": "Glymfonyl-1",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "Antidiabetic",
+    "uses": [
+      "Treatment of type 2 diabetes mellitus in adults"
+    ],
+    "sideEffects": [
+      "Nausea",
+      "Vomiting",
+      "Abdominal pain",
+      "Diarrhoea",
+      "Loss of appetite",
+      "Hypoglycemia (low blood sugar)"
+    ],
+    "dosage": "1mg Glimepiride / 500mg Metformin. Swallow the tablet whole with water, as advised by your doctor.",
+    "contraindications": [
+      "Contraindicated during pregnancy",
+      "Contraindicated for breastfeeding women",
+      "Avoid alcohol consumption",
+      "Contraindicated in patients with severe liver or kidney impairment",
+      "Allergy to glimepiride or metformin"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/Glymfonyl-1.png"
   },
   {
     "id": 11,
     "name": "H_Seal_gel",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "Antacid / Antiflatulent",
+    "uses": [
+      "Acidity",
+      "Heartburn",
+      "Indigestion",
+      "Gastritis",
+      "Acid reflux",
+      "Gas and bloating"
+    ],
+    "sideEffects": [
+      "Constipation",
+      "Diarrhea",
+      "Dizziness",
+      "Drowsiness"
+    ],
+    "dosage": "Oral gel. 153mg Aluminium Hydroxide / 200mg Magnesium Hydroxide / 25mg Simethicone. Taken with or without food as advised.",
+    "contraindications": [
+      "Inform doctor of all other medications"
+    ],
+    "prescriptionRequired": false,
     "imageUrl": "/images/H_Seal_gel.png"
   },
   {
@@ -134,144 +254,347 @@
   {
     "id": 13,
     "name": "HB-14",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "Nutritional Supplement / Hematinic",
+    "uses": [
+      "Treatment of nutritional deficiencies",
+      "Management of Iron Deficiency Anaemia",
+      "Supporting red blood cell production",
+      "Fatigue"
+    ],
+    "sideEffects": [
+      "Nausea",
+      "Digestive issues (constipation, diarrhea)",
+      "Allergic reactions"
+    ],
+    "dosage": "Capsule (typically Ferrous Fumarate 300mg, Folic Acid 1.5mg, Vitamin B12 15mcg, Vitamin B6 1.5mg, Zinc 40mg). Take with water.",
+    "contraindications": [
+      "Allergy to ingredients (e.g., peanuts, soya)",
+      "Avoid taking with tea, coffee, or milk (reduces iron absorption)",
+      "Interacts with tetracycline antibiotics"
+    ],
+    "prescriptionRequired": false,
     "imageUrl": "/images/HB-14.png"
   },
   {
     "id": 14,
     "name": "HB-14 CAPSULE",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "Nutritional Supplement / Hematinic",
+    "uses": [
+      "Treatment of nutritional deficiencies",
+      "Management of Iron Deficiency Anaemia",
+      "Supporting red blood cell production",
+      "Fatigue"
+    ],
+    "sideEffects": [
+      "Nausea",
+      "Digestive issues (constipation, diarrhea)",
+      "Allergic reactions"
+    ],
+    "dosage": "Capsule (typically Ferrous Fumarate 300mg, Folic Acid 1.5mg, Vitamin B12 15mcg, Vitamin B6 1.5mg, Zinc 40mg). Take with water.",
+    "contraindications": [
+      "Allergy to ingredients (e.g., peanuts, soya)",
+      "Avoid taking with tea, coffee, or milk (reduces iron absorption)",
+      "Interacts with tetracycline antibiotics"
+    ],
+    "prescriptionRequired": false,
     "imageUrl": "/images/HB-14_CAPSULE.png"
   },
   {
     "id": 15,
     "name": "HB-14 L",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "Nutritional Supplement / Hematinic",
+    "uses": [
+      "Treatment of anemias due to iron deficiencies",
+      "Use during pre and post pregnancy period",
+      "General body run down condition",
+      "Loss of appetite"
+    ],
+    "sideEffects": [
+      "Nausea",
+      "Constipation",
+      "Upset stomach"
+    ],
+    "dosage": "Syrup (Ferric Ammonium Citrate, Folic Acid, Cyanocobalamin, Pyridoxine, Niacinamide, Zinc, L-Lysine). As advised by doctor.",
+    "contraindications": [
+      "Avoid taking with tea, coffee, or milk (reduces iron absorption)"
+    ],
+    "prescriptionRequired": false,
     "imageUrl": "/images/HB-14_L.png"
   },
   {
     "id": 16,
     "name": "HB-14 XT CAPSULE",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "Dietary Supplement / Hematinic",
+    "uses": [
+      "Preventing and managing iron deficiency anaemia",
+      "Supporting formation of healthy red blood cells",
+      "Nutritional support during pregnancy"
+    ],
+    "sideEffects": [
+      "Gastrointestinal discomfort",
+      "Metallic taste",
+      "Nausea",
+      "Vomiting",
+      "Constipation"
+    ],
+    "dosage": "Capsule (typically Elemental Iron 100mg, Folic Acid 1.5mg, Elemental Zinc 22.5mg). Swallow whole with water.",
+    "contraindications": [
+      "Interacts with antibiotics (quinolones, tetracyclines)",
+      "Interacts with calcium supplements",
+      "Interacts with anticonvulsants (phenytoin)"
+    ],
+    "prescriptionRequired": false,
     "imageUrl": "/images/HB-14_XT_CAPSULE.png"
   },
   {
     "id": 17,
     "name": "HYGOTEL 20",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "Anti-hypertensive (ARB)",
+    "uses": [
+      "Treatment of high blood pressure (hypertension)",
+      "Reduce risk of heart attack and stroke"
+    ],
+    "sideEffects": [
+      "Dizziness",
+      "Light-headedness",
+      "Upper respiratory tract infection"
+    ],
+    "dosage": "20mg Telmisartan. Swallow tablet whole with water, can be taken with or without food. Take at the same time each day.",
+    "contraindications": [
+      "Contraindicated during pregnancy",
+      "Contraindicated during breastfeeding",
+      "Avoid consuming alcohol",
+      "Severe liver impairment",
+      "Biliary obstructive disorders",
+      "Severe kidney problems"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/HYGOTEL_20.png"
   },
   {
     "id": 18,
     "name": "HYGOTEL 40",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "Anti-hypertensive (ARB)",
+    "uses": [
+      "Treatment of high blood pressure (hypertension)",
+      "Reduce risk of heart attack and stroke"
+    ],
+    "sideEffects": [
+      "Dizziness",
+      "Light-headedness",
+      "Upper respiratory tract infection"
+    ],
+    "dosage": "40mg Telmisartan. Swallow tablet whole with water, can be taken with or without food. Take at the same time each day.",
+    "contraindications": [
+      "Contraindicated during pregnancy",
+      "Contraindicated during breastfeeding",
+      "Avoid consuming alcohol",
+      "Severe liver impairment",
+      "Biliary obstructive disorders",
+      "Severe kidney problems"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/HYGOTEL_40.png"
   },
   {
     "id": 19,
     "name": "HYGOTEL AM",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "Anti-hypertensive (ARB + CCB)",
+    "uses": [
+      "Treatment of high blood pressure (hypertension)"
+    ],
+    "sideEffects": [
+      "Swelling in feet and ankles (edema)",
+      "Headache",
+      "Sleepiness",
+      "Dizziness",
+      "Tiredness",
+      "Upset stomach"
+    ],
+    "dosage": "40mg Telmisartan / 5mg Amlodipine. Swallow tablet whole. Take at the same time each day.",
+    "contraindications": [
+      "Unsafe to use during pregnancy",
+      "Unsafe to consume alcohol",
+      "Do not take with potassium supplements",
+      "Severe kidney or liver issues"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/HYGOTEL_AM.png"
   },
   {
     "id": 20,
     "name": "If 100",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "NSAID (Non-steroidal Anti-inflammatory Drug)",
+    "uses": [
+      "Pain and inflammation relief",
+      "Osteoarthritis",
+      "Rheumatoid arthritis",
+      "Ankylosing spondylitis",
+      "Reduce swelling, stiffness, and joint pain"
+    ],
+    "sideEffects": [
+      "Abdominal pain",
+      "Constipation",
+      "Diarrhoea",
+      "Dizziness",
+      "Indigestion",
+      "Flatulence",
+      "Nausea",
+      "Rash"
+    ],
+    "dosage": "100mg Aceclofenac. Tablet, as advised by doctor.",
+    "contraindications": [
+      "Contraindicated during the third trimester of pregnancy",
+      "Not recommended during breastfeeding",
+      "Alcohol use (increases risk of stomach bleeding)",
+      "History of liver or kidney problems",
+      "Hypersensitivity to aceclofenac or other NSAIDs",
+      "Interacts with anticoagulants (warfarin) and SSRIs"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/If_100.png"
   },
   {
     "id": 21,
     "name": "if_gel",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
+    "category": "NSAID (Topical)",
+    "uses": [
+      "Localized pain and inflammation",
+      "Sprains and strains",
+      "Arthritis pain (topical)"
+    ],
+    "sideEffects": [
+      "Skin irritation",
+      "Rash",
+      "Redness at application site",
+      "Itching"
+    ],
+    "dosage": "Topical gel (Aceclofenac). Apply to the affected area as directed.",
+    "contraindications": [
+      "Hypersensitivity to aceclofenac",
+      "Do not apply to broken or open skin"
+    ],
     "prescriptionRequired": null,
     "imageUrl": "/images/if_gel.png"
   },
   {
     "id": 22,
     "name": "If_Plus",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "NSAID / Analgesic",
+    "uses": [
+      "Pain and inflammation relief",
+      "Rheumatoid arthritis",
+      "Ankylosing spondylitis",
+      "Osteoarthritis",
+      "Muscle pain",
+      "Back pain",
+      "Toothache"
+    ],
+    "sideEffects": [
+      "Nausea",
+      "Vomiting",
+      "Stomach pain",
+      "Loss of appetite",
+      "Heartburn",
+      "Diarrhea"
+    ],
+    "dosage": "100mg Aceclofenac / 500mg Paracetamol. Take with food or milk to prevent stomach upset.",
+    "contraindications": [
+      "Not recommended during the third trimester of pregnancy",
+      "Should not be used by breastfeeding women",
+      "Avoid alcohol consumption",
+      "History of heart, kidney, liver, or stomach ulcer problems"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/If_Plus.png"
   },
   {
     "id": 23,
     "name": "IF_SP",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "NSAID / Analgesic / Enzyme",
+    "uses": [
+      "Short-term relief of pain, inflammation, and swelling",
+      "Conditions affecting joints and muscles (e.g., rheumatoid arthritis, osteoarthritis)",
+      "Postoperative pain"
+    ],
+    "sideEffects": [
+      "Nausea",
+      "Vomiting",
+      "Stomach pain",
+      "Indigestion",
+      "Heartburn",
+      "Dizziness",
+      "Drowsiness",
+      "Diarrhea"
+    ],
+    "dosage": "100mg Aceclofenac / 325mg Paracetamol / 15mg Serratiopeptidase. Take with food or milk to prevent stomach upset.",
+    "contraindications": [
+      "Unsafe to consume alcohol",
+      "May be unsafe during pregnancy",
+      "Caution in patients with kidney or liver disease",
+      "History of stomach ulcers, heart failure, or high blood pressure"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/IF_SP.png"
   },
   {
     "id": 24,
     "name": "IF SP",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "NSAID / Analgesic / Enzyme",
+    "uses": [
+      "Short-term relief of pain, inflammation, and swelling",
+      "Conditions affecting joints and muscles (e.g., rheumatoid arthritis, osteoarthritis)",
+      "Postoperative pain"
+    ],
+    "sideEffects": [
+      "Nausea",
+      "Vomiting",
+      "Stomach pain",
+      "Indigestion",
+      "Heartburn",
+      "Dizziness",
+      "Drowsiness",
+      "Diarrhea"
+    ],
+    "dosage": "100mg Aceclofenac / 325mg Paracetamol / 15mg Serratiopeptidase. Take with food or milk to prevent stomach upset.",
+    "contraindications": [
+      "Unsafe to consume alcohol",
+      "May be unsafe during pregnancy",
+      "Caution in patients with kidney or liver disease",
+      "History of stomach ulcers, heart failure, or high blood pressure"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/IF_SP_alt.png"
   },
   {
     "id": 25,
     "name": "IF Plus",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "NSAID / Analgesic",
+    "uses": [
+      "Pain and inflammation relief",
+      "Rheumatoid arthritis",
+      "Ankylosing spondylitis",
+      "Osteoarthritis",
+      "Muscle pain",
+      "Back pain",
+      "Toothache"
+    ],
+    "sideEffects": [
+      "Nausea",
+      "Vomiting",
+      "Stomach pain",
+      "Loss of appetite",
+      "Heartburn",
+      "Diarrhea"
+    ],
+    "dosage": "100mg Aceclofenac / 500mg Paracetamol. Take with food or milk to prevent stomach upset.",
+    "contraindications": [
+      "Not recommended during the third trimester of pregnancy",
+      "Should not be used by breastfeeding women",
+      "Avoid alcohol consumption",
+      "History of heart, kidney, liver, or stomach ulcer problems"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/IF_Plus_alt.png"
   },
   {
@@ -310,78 +633,212 @@
   {
     "id": 29,
     "name": "NIM",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "NSAID (Non-steroidal Anti-inflammatory Drug)",
+    "uses": [
+      "Pain relief",
+      "Treatment of fever",
+      "Inflammatory conditions",
+      "Menstrual cramps (Dysmenorrhea)",
+      "Osteoarthritis",
+      "Dental pain"
+    ],
+    "sideEffects": [
+      "Nausea",
+      "Vomiting",
+      "Heartburn",
+      "Stomach pain",
+      "Loss of appetite",
+      "Diarrhoea",
+      "Dizziness"
+    ],
+    "dosage": "100mg Nimesulide. Tablet should be taken with food to avoid stomach irritation.",
+    "contraindications": [
+      "Allergy to Nimesulide or other NSAIDs",
+      "Unsafe in severe liver disease",
+      "Caution in kidney disease (not recommended for severe impairment)",
+      "Gastro-intestinal bleeding or peptic ulcers",
+      "History of heart disease",
+      "Unsafe to consume alcohol",
+      "Unsafe to use during pregnancy",
+      "Banned for children under 12 years of age"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/NIM.jpg"
   },
   {
     "id": 30,
     "name": "NIM-A",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "NSAID / Analgesic",
+    "uses": [
+      "Pain relief",
+      "Inflammation",
+      "Fever",
+      "Rheumatoid arthritis",
+      "Ankylosing spondylitis",
+      "Osteoarthritis",
+      "Muscle pain",
+      "Back pain",
+      "Toothache"
+    ],
+    "sideEffects": [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea",
+      "Increased liver enzymes",
+      "Dizziness",
+      "Excess sleepiness"
+    ],
+    "dosage": "100mg Nimesulide / 500mg Paracetamol. Tablet should be taken with food.",
+    "contraindications": [
+      "Allergy to Nimesulide or Paracetamol",
+      "History of peptic ulcers or gastrointestinal bleeding",
+      "Severe liver or kidney disease",
+      "Unsafe to consume alcohol",
+      "Not recommended during pregnancy or breastfeeding",
+      "Banned for children under 12 years of age"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/NIM-A.jpg"
   },
   {
     "id": 31,
     "name": "NIM (tablet)",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "NSAID (Non-steroidal Anti-inflammatory Drug)",
+    "uses": [
+      "Pain relief",
+      "Treatment of fever",
+      "Inflammatory conditions",
+      "Menstrual cramps (Dysmenorrhea)",
+      "Osteoarthritis",
+      "Dental pain"
+    ],
+    "sideEffects": [
+      "Nausea",
+      "Vomiting",
+      "Heartburn",
+      "Stomach pain",
+      "Loss of appetite",
+      "Diarrhoea",
+      "Dizziness"
+    ],
+    "dosage": "100mg Nimesulide. Tablet should be taken with food to avoid stomach irritation.",
+    "contraindications": [
+      "Allergy to Nimesulide or other NSAIDs",
+      "Unsafe in severe liver disease",
+      "Caution in kidney disease (not recommended for severe impairment)",
+      "Gastro-intestinal bleeding or peptic ulcers",
+      "History of heart disease",
+      "Unsafe to consume alcohol",
+      "Unsafe to use during pregnancy",
+      "Banned for children under 12 years of age"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/NIM_tablet.jpg"
   },
   {
     "id": 32,
     "name": "If gel (alt)",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
+    "category": "NSAID (Topical)",
+    "uses": [
+      "Localized pain and inflammation",
+      "Sprains and strains",
+      "Arthritis pain (topical)"
+    ],
+    "sideEffects": [
+      "Skin irritation",
+      "Rash",
+      "Redness at application site",
+      "Itching"
+    ],
+    "dosage": "Topical gel (Aceclofenac). Apply to the affected area as directed.",
+    "contraindications": [
+      "Hypersensitivity to aceclofenac",
+      "Do not apply to broken or open skin"
+    ],
     "prescriptionRequired": null,
     "imageUrl": "/images/if_gel_alt.png"
   },
   {
     "id": 33,
     "name": "If 100 (alt)",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "NSAID (Non-steroidal Anti-inflammatory Drug)",
+    "uses": [
+      "Pain and inflammation relief",
+      "Osteoarthritis",
+      "Rheumatoid arthritis",
+      "Ankylosing spondylitis",
+      "Reduce swelling, stiffness, and joint pain"
+    ],
+    "sideEffects": [
+      "Abdominal pain",
+      "Constipation",
+      "Diarrhoea",
+      "Dizziness",
+      "Indigestion",
+      "Flatulence",
+      "Nausea",
+      "Rash"
+    ],
+    "dosage": "100mg Aceclofenac. Tablet, as advised by doctor.",
+    "contraindications": [
+      "Contraindicated during the third trimester of pregnancy",
+      "Not recommended during breastfeeding",
+      "Alcohol use (increases risk of stomach bleeding)",
+      "History of liver or kidney problems",
+      "Hypersensitivity to aceclofenac or other NSAIDs",
+      "Interacts with anticoagulants (warfarin) and SSRIs"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/If_100_alt.png"
   },
   {
     "id": 34,
     "name": "HYGOTEL 20 (alt pack)",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "Anti-hypertensive (ARB)",
+    "uses": [
+      "Treatment of high blood pressure (hypertension)",
+      "Reduce risk of heart attack and stroke"
+    ],
+    "sideEffects": [
+      "Dizziness",
+      "Light-headedness",
+      "Upper respiratory tract infection"
+    ],
+    "dosage": "20mg Telmisartan. Swallow tablet whole with water, can be taken with or without food. Take at the same time each day.",
+    "contraindications": [
+      "Contraindicated during pregnancy",
+      "Contraindicated during breastfeeding",
+      "Avoid consuming alcohol",
+      "Severe liver impairment",
+      "Biliary obstructive disorders",
+      "Severe kidney problems"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/HYGOTEL_20_alt.png"
   },
   {
     "id": 35,
     "name": "HYGOTEL 40 (alt pack)",
-    "category": "TBD",
-    "uses": [],
-    "sideEffects": [],
-    "dosage": "TBD",
-    "contraindications": [],
-    "prescriptionRequired": null,
+    "category": "Anti-hypertensive (ARB)",
+    "uses": [
+      "Treatment of high blood pressure (hypertension)",
+      "Reduce risk of heart attack and stroke"
+    ],
+    "sideEffects": [
+      "Dizziness",
+      "Light-headedness",
+      "Upper respiratory tract infection"
+    ],
+    "dosage": "40mg Telmisartan. Swallow tablet whole with water, can be taken with or without food. Take at the same time each day.",
+    "contraindications": [
+      "Contraindicated during pregnancy",
+      "Contraindicated during breastfeeding",
+      "Avoid consuming alcohol",
+      "Severe liver impairment",
+      "Biliary obstructive disorders",
+      "Severe kidney problems"
+    ],
+    "prescriptionRequired": true,
     "imageUrl": "/images/HYGOTEL_40_alt.png"
   }
 ]
